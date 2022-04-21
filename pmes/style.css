@@ -1,0 +1,235 @@
+.el-element {
+	width: auto;
+	margin: 40px 0 40px 0;
+	border-radius: 4px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 40px 70px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 13;
+	background: #fff;
+	font-size: 16px;
+}
+
+.el-element p {
+	color: #000;
+}
+
+.el-element .prep-pricing-title {
+	font-size: 26px;
+}
+
+.el-element .pcp-main-content p {
+	font-weight: 400;
+	color: #000;
+	text-align: justify;
+}
+
+.el-element .uk-button-orange {
+	display: inline-block;
+	width: auto;
+	padding: 14px 38px 14px 38px;
+	border-radius: 100px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1;
+	height: auto;
+	min-height: auto;
+}
+
+.el-element .uk-button-orange span {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto !important;
+}
+
+.el-element .uk-button-orange:hover,
+.el-element .uk-button-orange:focus {
+	background-color: #ff6a21;
+	border: 1px solid #ff7837;
+	color: #fff;
+}
+
+.el-element .uk-link-text img.paypal-badge {
+	width: 60px;
+}
+
+.el-element .uk-link-text img {
+	display: inline-block;
+	width: 8px;
+	margin-left: 6px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	height: auto !important;
+}
+
+.el-element .payment-badge-img img {
+	max-width: 400px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.el-element .prep-card-pricing .uk-text-center p {
+	margin-bottom: 0 !important;
+}
+
+.el-element .uk-list-with-icons {
+	list-style-type: none;
+	padding-left: 0;
+	max-width: 100%;
+	min-height: initial;
+	color: #000;
+	font-weight: 400;
+}
+
+.el-element .uk-list-with-icons li {
+	padding-left: 25px;
+	position: relative;
+	min-height: 25px;
+	display: block;
+	vertical-align: middle;
+	font-size: 16px;
+	margin-bottom: 0;
+	padding-bottom: 8px;
+}
+
+.el-element .uk-list-with-icons li small {
+	line-height: 1.4;
+	font-size: 16px;
+	color: #000;
+	display: block;
+}
+
+.el-element .uk-list-with-icons li .uk-icon-item {
+	width: 16px;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+
+.el-element .uk-text-center p {
+	margin-bottom: 0px !important;
+}
+
+.el-element .uk-text-center h4 {
+	margin-top: 20px;
+}
+
+.el-element .uk-list-with-icons li .uk-icon-item img {
+	width: 100% !important;
+	height: auto !important;
+	display: block;
+}
+
+.el-element .save-badge {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 130px;
+	height: 130px;
+	margin: 0;
+}
+
+.el-element .red-underline {
+	position: relative;
+	padding-bottom: 20px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.el-element .red-underline:after {
+	content: "";
+	width: 91px;
+	height: 21px;
+	background: url(images/slice-02.png);
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+}
+
+@media (max-width: 1280px) {
+	.el-element {
+		padding: 40px 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.el-element {
+		padding: 30px;
+		margin-bottom: 60px;
+		font-size: 14px;
+	}
+
+	.el-element p {
+		line-height: 1.4;
+	}
+
+	.el-element .prep-pricing-title {
+		font-size: 18px;
+		padding-right: 30px;
+		text-align: left !important;
+		line-height: 1.1;
+	}
+
+	.el-element .prep-pricing-title br {
+		display: none;
+	}
+
+	.el-element .save-badge {
+		width: 90px;
+		height: 90px;
+	}
+
+	.el-element .uk-list-with-icons li,
+	.el-element .uk-list-with-icons li small {
+		font-size: 14px;
+	}
+
+	.el-element .red-underline {
+		text-decoration: underline;
+	}
+
+	.el-element .red-underline:after {
+		background: none;
+		height: 1px;
+		width: 100%;
+		left: 0;
+		background-color: #ff0000;
+		display: none;
+	}
+
+	.el-element .uk-button-orange {
+		padding: 10px 28px 10px 28px;
+		font-size: 14px;
+	}
+
+	.el-element .uk-text-center h4 {
+		font-size: 16px;
+		margin-top: 0;
+	}
+
+	.el-element .uk-text-center h4 br {
+		display: none;
+	}
+}
+
+/*** Important Reminders ***/
+
+.el-element .important-reminders ul li {
+	padding-bottom: 8px;
+}
+
+.el-element .important-reminders {
+	margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+	.el-element .important-reminders ul li {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+}
